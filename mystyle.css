@@ -1,0 +1,37 @@
+body{
+    background-image: url("image.png");
+}
+
+div[element="myIntro"] {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 75px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 150px;
+    font-size: 20px;
+}
+
+h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+p{
+    margin-bottom: 50px;
+}
+section{
+    width: 30%;
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media screen and (max-width:600px){
+    div[element="myIntro"], section{
+        width: 100%;
+    }
+}
