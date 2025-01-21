@@ -30,6 +30,13 @@ section{
     margin-right: auto;
 }
 
+button{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
 @media screen and (max-width:600px){
     div[element="myIntro"], section{
         width: 100%;
